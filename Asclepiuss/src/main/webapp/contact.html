@@ -184,6 +184,8 @@
 	<script src="assets/js/template.js"></script>
     <script>
         function submitForm() {
+        	alert ('Request submitted' ) ;
+        	
             superagent
                 .post('https://asclimailtrig.azurewebsites.net')
                 .send({ 
